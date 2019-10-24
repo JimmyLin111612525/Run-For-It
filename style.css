@@ -1,0 +1,128 @@
+body{
+    font-family: 'de-walpergens-pica';
+    background-image: url('scary-back.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top:30px;
+    
+}
+
+.game-background{
+    width:100%;
+    background-color: #fff;
+}
+
+.final-score::placeholder{
+    font-family: 'de-walpergens-pica';
+    letter-spacing: 2.5px;
+}
+
+.final-score{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 550px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.player-0-panel,.player-1-panel {
+    width: 50%;
+    float: left;
+    height: 600px;
+    padding: 100px;
+    color:#fff;
+    box-sizing: border-box; 
+    
+}
+
+.dice{
+    width:100px;
+}
+
+ul{
+    list-style-type:none;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+.list-1{
+    transform: translateX(-110%);
+}
+
+.list-2{
+    transform:translateX(-20%);
+}
+
+
+.player-name,.player-score {
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    text-shadow:10px 10px 5px #000;
+}
+
+.player-score{
+    font-size:95px;
+}
+
+button {
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    color: #fff;
+    background: none;
+    border: none;
+    font-family: 'de-walpergens-pica';
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    text-shadow: 10px 10px 10px #000;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-roll{
+    top:610px;
+    left:44%;
+}
+
+.btn-new{
+    top:610px;
+    left:55.5%;
+}
+
+.active{
+    color:red;
+}
+
+
+
+

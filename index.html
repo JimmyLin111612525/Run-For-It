@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Run For It!</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src='http://use.edgefonts.net/de-walpergens-pica.js'></script>
+    </head>
+
+    <body>
+
+        <img src="title.png" alt="Run For It" class="title">
+           
+        <div class="game-background"> 
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1</div>
+                <div class="player-score" id="score-0">50</div>
+            </div>
+                    
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2</div>
+                <div class="player-score" id="score-1">0</div>
+            </div>
+
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <input type="text" placeholder="Final score" class="final-score" id="score-input"> 
+
+            <div id="lists">
+                <ul class="list-1">
+                    <li>
+                        <img src="dice-6.png" alt="Dice" class="dice" id="dice-1" style="display: block;">
+                    </li>
+                    <li>
+                        <img src="dice-5.png" alt="Dice" class="dice" id="dice-2" style="display: block;">
+                    </li>
+                    <li>
+                        <img src="dice-4.png" alt="Dice" class="dice" id="dice-3" style="display: block;">
+                    </li>
+                </ul>
+
+
+                <ul class="list-2">
+                    <li>
+                        <img src="dice-3.png" alt="Dice" class="dice" id="dice-4" style="display: block;">
+                    </li>
+                    <li>
+                        <img src="dice-2.png" alt="Dice" class="dice" id="dice-5" style="display: block;">
+                    </li>
+                    <li>
+                        <img src="dice-1.png" alt="Dice" class="dice" id="dice-6" style="display: block;">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
+
+</html>
